@@ -11,36 +11,36 @@
 body {
   font-family: "Allerta", sans-serif;
   background-image: url('image/home.png');
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed; /* Keeps the background fixed in place */
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
   margin: 0;
   padding: 0;
 }
 
 @keyframes slideIn {
   from {
-    transform: translateY(100%); /* Start from below the viewport */
-    opacity: 0; /* Start as invisible */
+    transform: translateY(100%); 
+    opacity: 0;
   }
   to {
-    transform: translateY(0); /* End at its original position */
-    opacity: 1; /* Fade in */
+    transform: translateY(0); 
+    opacity: 1;
   }
 }
 
 .mainSection {
   background-color: #fff;
-  margin: 70px; /* Retain the margin as required */
-  overflow: hidden; /* Hide overflow to prevent scrolling */
-  opacity: 0; /* Initially set to invisible */
-  animation: slideIn 0.8s ease forwards; /* Apply the slideIn animation */
+  margin: 70px; 
+  overflow: hidden; 
+  opacity: 0; 
+  animation: slideIn 0.8s ease forwards; 
 }
 
 
 .animate {
-  opacity: 0; /* Start as invisible */
-  animation: slideIn 0.8s ease forwards; /* Apply the slideIn animation */
+  opacity: 0;
+  animation: slideIn 0.8s ease forwards; 
 }
 
 
